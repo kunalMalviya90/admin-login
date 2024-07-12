@@ -1,0 +1,62 @@
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="adminlogin.css">
+    <title>Employee Shikayat Portal</title>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Sign In</h1>
+                <div class="social-icons">
+                    <a href="https://www.mpenagarpalika.gov.in/irj/portal/anonymous" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="https://imcindore.mp.gov.in/" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your email password</span>
+                <input type="email" placeholder="Email" required>
+                <input type="text" id="employeeId" placeholder="Employee Id" required>
+                <input type="password" placeholder="Password">
+                <a href="#">Forget Your Password?</a>
+                <li><a href="admindashboard.html">
+                    <button type="button">Sign In</button>
+                </a></li>
+                <!--<button type="button">Sign In</button>-->
+                <div id="message"></div>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-right">
+                    <h1>Hello Admin!</h1>
+                    <p>Welcome for Solving Complaint</p>
+                    <p>Our Complaint Solver</p>
+
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+    <div id="successModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-body">
+                <img src="succesfully.gif" alt="Success GIF">
+                <p>SUCCESSFUL REGISTRATION! Now you can login.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="adminlogin.js"></script>
+
+</body>
+
+</html>
